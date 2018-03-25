@@ -4,33 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>learning</groupId>
-	<artifactId>design-pattern</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<artifactId>visitor</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-	<name>design-pattern</name>
+	<name>visitor</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>learning</groupId>
+		<artifactId>design-pattern</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-
-	<modules>
-		<module>abstract-factory</module>
-		<module>adapter</module>
-		<module>build</module>
-		<module>composite</module>
-		<module>iterator</module>
-		<module>template-method</module>
-		<module>strategy</module>
-		<module>build</module>
-		<module>bridge</module>
-		<module>visitor</module>
-		<module>flyweight</module>
-	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,13 +26,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-tomcat</artifactId>
-				</exclusion>
-			</exclusions>
+			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
 		<dependency>
